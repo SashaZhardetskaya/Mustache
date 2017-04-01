@@ -3,7 +3,7 @@
 // @import 'font-awesome-4.7.0/css/font-awesome.min';
 // @import 'font-awesome-4.7.0/scss/font-awesome';
 // @import '../font-awesome-4.7.0/css/font-awesome.min';
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -68,4 +68,79 @@
   // background: ;
   background: url(../img/logo.png) center center no-repeat #f9c616;
   @include background-size(80%);
+}
+
+.nav-item {
+  margin: 0;
+  padding: 5px 0 0 0;
+  box-sizing: border-box;
+  height: 5vh;
+  color: #f9c616;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+  &:active, &:hover, &:focus {
+    background: #f5f5f5;
+    border-right: 5px solid #6b6b6b; 
+    color: #323232;
+  }
+  span {
+    margin: 0 0 0 15%;
+  }
+}
+
+.active-links {
+  display: flex;
+  justify-content: flex-end;
+  margin: 7vh 0 0 0;
+  padding: 0;
+  height: 4vh;
+  border-right: 1px solid #f9c616;
+}
+
+.fb {
+  margin: 0 4px 0 0;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  content: "";
+  background: url(../img/fb.png) center center no-repeat;
+  @include background-size(cover);
+}
+.insta {
+  margin: 0 4px 0 0;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  content: "";
+  background: url(../img/insta.png) center center no-repeat;
+  @include background-size(cover);
+}
+.v {
+  margin: 0 4px 0 0;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  content: "";
+  background: url(../img/v.png) center center no-repeat;
+  @include background-size(cover);
+}
+
+.pass-links {
+  display: flex;
+  justify-content: flex-start;
+  margin: 7vh 0 0 0;
+  padding: 0;
+  height: 4vh;
+  border-right: 1px solid #f9c616;
+}
+.ik {
+  margin: 0 0 0 4px;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  content: "";
+  background: url(../img/ik.png) center center no-repeat;
+  @include background-size(cover);
 }

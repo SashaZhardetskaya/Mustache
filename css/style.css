@@ -5589,3 +5589,15 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900; }
+
+.main-content {
+  position: relative;
+  top: 30%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900; }
+  .main-content a {
+    text-decoration: none;
+    background: #ffc600; }

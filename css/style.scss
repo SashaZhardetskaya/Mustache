@@ -4,6 +4,7 @@
 // @import 'font-awesome-4.7.0/scss/font-awesome';
 // @import '../font-awesome-4.7.0/css/font-awesome.min';
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -52,6 +53,9 @@
 //     display: none;
 // }
 
+body {
+  background: #323232;
+}
 
 .menu {
   display: block;
@@ -133,7 +137,6 @@
   margin: 7vh 0 0 0;
   padding: 0;
   height: 4vh;
-  border-right: 1px solid #f9c616;
 }
 .ik {
   margin: 0 0 0 4px;
@@ -142,5 +145,22 @@
   width: 21px;
   content: "";
   background: url(../img/ik.png) center center no-repeat;
+  @include background-size(cover);
+}
+
+.contacts {
+  margin: 1.8vh 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  p {
+    margin: 0 0 0 2vw;
+    font-size: 0.66em;
+    color: #b3b2b2;
+  }
+}
+
+
+.home {
+  height: 92vh;
+  background: url(../img/main.jpg) center center no-repeat;
   @include background-size(cover);
 }

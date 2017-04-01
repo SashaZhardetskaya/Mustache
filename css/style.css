@@ -14,6 +14,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5456,6 +5457,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+body {
+  background: #323232; }
+
 .menu {
   display: block;
   background: black;
@@ -5543,8 +5547,7 @@ button.close {
   justify-content: flex-start;
   margin: 7vh 0 0 0;
   padding: 0;
-  height: 4vh;
-  border-right: 1px solid #f9c616; }
+  height: 4vh; }
 
 .ik {
   margin: 0 0 0 4px;
@@ -5553,6 +5556,23 @@ button.close {
   width: 21px;
   content: "";
   background: url(../img/ik.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.contacts {
+  margin: 1.8vh 0 0 0;
+  font-family: 'Roboto', sans-serif; }
+  .contacts p {
+    margin: 0 0 0 2vw;
+    font-size: 0.66em;
+    color: #b3b2b2; }
+
+.home {
+  height: 92vh;
+  background: url(../img/main.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;

@@ -5572,7 +5572,7 @@ body {
     color: #b3b2b2; }
 
 .home {
-  height: 92vh;
+  height: 91vh;
   background: url(../img/main.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -5584,4 +5584,8 @@ body {
   text-align: center;
   color: #f9c616;
   font-family: 'Montserrat', sans-serif;
-  margin: 10; }
+  margin: 12px 0 0 0; }
+  .latest-works h2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; }

@@ -1,3 +1,38 @@
+var mmenu = 'close';
+$(document).ready(function(){
+    $('.main-content a').on('click', showMmenu);
+    $('.close-icon').on('click', hideMmenu);
+});
+
+
+/* NENU */
+
+function showMmenu(){
+	if (mmenu=='close') { 
+	$('.contact-form-section').css({
+		'display': 'block'
+	});
+	mmenu='open';
+	}
+	else{ 
+	$('.contact-form-section').css('display','none');
+	mmenu = 'close';
+	}
+}
+function hideMmenu(){
+	if (mmenu=='open') { 
+	$('.contact-form-section').css({
+		'display': 'none'
+	});
+	mmenu='close';
+	}
+	else{ 
+	$('.contact-form-section').css('display','block');
+	mmenu = 'open';
+	}
+}
+
+
 
 
 $(document).ready(function(){

@@ -7794,6 +7794,9 @@ body {
   display: block;
   background: black;
   height: 110vh; }
+  @media (max-width: 768px) {
+    .side-menu {
+      display: none; } }
 
 .logo-section {
   display: block;
@@ -7831,14 +7834,14 @@ body {
   justify-content: flex-end;
   margin: 7vh 0 0 0;
   padding: 0;
-  height: 4vh;
+  height: 5vh;
   border-right: 1px solid #f9c616; }
 
 .fb {
-  margin: 0 4px 0 0;
+  margin: 0 6px 0 0;
   display: inline-block;
-  height: 21px;
-  width: 21px;
+  height: 28px;
+  width: 28px;
   content: "";
   background: url(../img/fb.png) center center no-repeat;
   -webkit-background-size: cover;
@@ -7846,12 +7849,17 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1000px) {
+    .fb {
+      margin: 0 4px 0 0;
+      height: 21px;
+      width: 21px; } }
 
 .insta {
-  margin: 0 4px 0 0;
+  margin: 0 6px 0 0;
   display: inline-block;
-  height: 21px;
-  width: 21px;
+  height: 28px;
+  width: 28px;
   content: "";
   background: url(../img/insta.png) center center no-repeat;
   -webkit-background-size: cover;
@@ -7859,12 +7867,17 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1000px) {
+    .insta {
+      margin: 0 4px 0 0;
+      height: 21px;
+      width: 21px; } }
 
 .v {
-  margin: 0 4px 0 0;
+  margin: 0 6px 0 0;
   display: inline-block;
-  height: 21px;
-  width: 21px;
+  height: 28px;
+  width: 28px;
   content: "";
   background: url(../img/v.png) center center no-repeat;
   -webkit-background-size: cover;
@@ -7872,6 +7885,11 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1000px) {
+    .v {
+      margin: 0 4px 0 0;
+      height: 21px;
+      width: 21px; } }
 
 .pass-links {
   display: flex;
@@ -7881,10 +7899,10 @@ body {
   height: 4vh; }
 
 .ik {
-  margin: 0 0 0 4px;
+  margin: 0 0 0 6px;
   display: inline-block;
-  height: 21px;
-  width: 21px;
+  height: 28px;
+  width: 28px;
   content: "";
   background: url(../img/ik.png) center center no-repeat;
   -webkit-background-size: cover;
@@ -7892,6 +7910,11 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1000px) {
+    .ik {
+      margin: 0 0 0 4px;
+      height: 21px;
+      width: 21px; } }
 
 .contacts {
   margin: 1.8vh 0 0 0;
@@ -7900,6 +7923,21 @@ body {
     margin: 0 0 0 2vw;
     font-size: 1em;
     color: #b3b2b2; }
+    @media (max-width: 1270px) {
+      .contacts p {
+        font-size: 0.8em; } }
+    @media (max-width: 1000px) {
+      .contacts p {
+        font-size: 0.67em; } }
+    @media (max-width: 820px) {
+      .contacts p {
+        font-size: 0.6em; } }
+    @media (max-width: 750px) {
+      .contacts p {
+        font-size: 0.5em; } }
+    @media (max-width: 630px) {
+      .contacts p {
+        font-size: 0.4em; } }
 
 .home {
   height: 91vh;
@@ -7959,7 +7997,7 @@ body {
   cursor: pointer; }
 
 .contact-form-section {
-  display: block;
+  display: none;
   z-index: 3;
   position: fixed;
   height: 100vh;

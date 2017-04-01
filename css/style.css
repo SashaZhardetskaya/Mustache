@@ -7987,3 +7987,31 @@ body {
   -ms-background-size: 50%;
   -o-background-size: 50%;
   background-size: 50%; }
+
+.user-contacts-section {
+  margin-top: 25px; }
+  .user-contacts-section p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 10px 0 0 0; }
+
+.user-contact {
+  width: 115%;
+  border: none;
+  background: #eaeaea; }
+
+.contact-textarea {
+  width: 107%;
+  border: none;
+  background: #eaeaea; }
+
+.send-request-contact input {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 10px 0 10px 0;
+  background: #f9c616;
+  padding: 3px 43px 3px 43px;
+  border: none;
+  outline: none; }

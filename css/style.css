@@ -5463,12 +5463,13 @@ body {
 .menu {
   display: block;
   background: black;
-  height: 100vh; }
+  height: 110vh; }
 
 .logo-section {
   display: block;
   position: relative;
   z-index: 3;
+  padding: 50%;
   width: 100%;
   height: 25vh;
   background: url(../img/logo.png) center center no-repeat #f9c616;
@@ -5578,3 +5579,9 @@ body {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.latest-works {
+  text-align: center;
+  color: #f9c616;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10; }

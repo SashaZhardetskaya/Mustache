@@ -7973,6 +7973,19 @@ body {
 
 .contact-info {
   height: 50vh; }
+  .contact-info .header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -50px;
+    font-size: 1.1em; }
+  .contact-info p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0px;
+    font-size: 0.9em; }
 
 .contact-logo {
   display: block;

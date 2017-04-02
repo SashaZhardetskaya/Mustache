@@ -58,6 +58,68 @@ body {
   background: #323232;
 }
 
+
+
+
+.menu-burger {
+  z-index: 2;
+  position: fixed;
+  top: 45px;
+  left: 45px;
+  border: none;
+  background-color: inherit;
+  color: #f9c616;
+  outline: none;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  .burger-icon {
+    display: block;
+  }
+  .side-icon {
+    display: none;
+    color: black;
+  }
+}
+
+.side-menu-mobile {
+  position: fixed;
+  z-index: 555;
+  display: none;
+  background: black;
+  height: 110vh;
+  width: 300px;
+  margin: 0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.logo-section-mobile {
+  display: block;
+  position: relative;
+  z-index: 2;
+  padding: 40%;
+  width: 300px;
+  height: 10vh;
+  // background: ;
+  background: url(../img/logo.png) center center no-repeat #f9c616;
+  @include background-size(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .side-menu {
   display: block;
   background: black;

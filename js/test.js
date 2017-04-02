@@ -1,4 +1,5 @@
 var mmenu = 'close';
+var sideMenu = 'close';
 $(document).ready(function(){
     $('.main-content a').on('click', showMmenu);
     $('.close-icon').on('click', hideMmenu);
@@ -6,6 +7,33 @@ $(document).ready(function(){
 
 
 /* NENU */
+
+$(document).ready(function(){
+    $('.menu-burger').on('click', showSideMenu);
+});
+
+function showSideMenu(){
+	if (sideMenu=='close') { 
+	$('.side-menu-mobile').css({
+		'display': 'block'
+	});
+	sideMenu='open';
+	$('.burger-icon').fadeOut(800);
+	$('.side-icon').fadeIn(800);
+	}
+	else{ 
+	$('.side-menu-mobile').css('display','none');
+	sideMenu = 'close';
+	$('.burger-icon').fadeIn(800);
+	$('.side-icon').fadeOut(800);
+	}
+}
+
+
+
+
+
+/* Contact FORM */
 
 function showMmenu(){
 	if (mmenu=='close') { 

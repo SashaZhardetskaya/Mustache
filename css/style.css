@@ -7790,6 +7790,50 @@ button.close {
 body {
   background: #323232; }
 
+.menu-burger {
+  z-index: 2;
+  position: fixed;
+  top: 45px;
+  left: 45px;
+  border: none;
+  background-color: inherit;
+  color: #f9c616;
+  outline: none; }
+  @media (min-width: 768px) {
+    .menu-burger {
+      display: none; } }
+  .menu-burger .burger-icon {
+    display: block; }
+  .menu-burger .side-icon {
+    display: none;
+    color: black; }
+
+.side-menu-mobile {
+  position: fixed;
+  z-index: 555;
+  display: none;
+  background: black;
+  height: 110vh;
+  width: 300px;
+  margin: 0; }
+  @media (min-width: 768px) {
+    .side-menu-mobile {
+      display: none; } }
+
+.logo-section-mobile {
+  display: block;
+  position: relative;
+  z-index: 2;
+  padding: 40%;
+  width: 300px;
+  height: 10vh;
+  background: url(../img/logo.png) center center no-repeat #f9c616;
+  -webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -ms-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%; }
+
 .side-menu {
   display: block;
   background: black;

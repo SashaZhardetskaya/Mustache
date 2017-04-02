@@ -358,6 +358,9 @@ body {
     font-weight: 900;
     margin-top: -40px;
     font-size: 1.1em;
+    @media (max-width: 930px) {
+      font-size: 0.9em;
+    }
   }
   p {
     font-family: 'Roboto', sans-serif;
@@ -365,6 +368,9 @@ body {
     font-weight: 100;
     margin-top: 0px;
     font-size: 0.9em;
+    @media (max-width: 930px) {
+      font-size: 0.7em;
+    }
   }
 }
 
@@ -378,6 +384,17 @@ body {
   // background: ;
   background: url(../img/logo.png) center center no-repeat;
   @include background-size(50%);
+  @media (max-width: 930px) {
+    padding: 1%;
+    height: 70%;
+  }
+  @media (max-width: 500px) {
+    padding: 0;
+    height: 57%;
+  }
+  @media (min-width: 1400px) {
+    height: 86%;
+  }
 }
 
 

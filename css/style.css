@@ -8079,12 +8079,18 @@ body {
     font-weight: 900;
     margin-top: -40px;
     font-size: 1.1em; }
+    @media (max-width: 930px) {
+      .contact-info .header {
+        font-size: 0.9em; } }
   .contact-info p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 100;
     margin-top: 0px;
     font-size: 0.9em; }
+    @media (max-width: 930px) {
+      .contact-info p {
+        font-size: 0.7em; } }
 
 .contact-logo {
   display: block;
@@ -8099,6 +8105,17 @@ body {
   -ms-background-size: 50%;
   -o-background-size: 50%;
   background-size: 50%; }
+  @media (max-width: 930px) {
+    .contact-logo {
+      padding: 1%;
+      height: 70%; } }
+  @media (max-width: 500px) {
+    .contact-logo {
+      padding: 0;
+      height: 57%; } }
+  @media (min-width: 1400px) {
+    .contact-logo {
+      height: 86%; } }
 
 .user-contacts-section {
   margin-top: 25px; }

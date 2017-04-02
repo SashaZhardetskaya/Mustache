@@ -58,14 +58,16 @@ body {
   background: #323232;
 }
 
-
+.costom-row {
+  margin: 0;
+}
 
 
 .menu-burger {
-  z-index: 2;
+  z-index: 66666;
   position: fixed;
-  top: 45px;
-  left: 45px;
+  top: 15px;
+  left: 15px;
   border: none;
   background-color: inherit;
   color: #f9c616;
@@ -100,24 +102,27 @@ body {
   position: relative;
   z-index: 2;
   padding: 40%;
-  width: 300px;
+  // width: 300px;
   height: 10vh;
   // background: ;
   background: url(../img/logo.png) center center no-repeat #f9c616;
   @include background-size(50%);
+  @media (max-height: 400px) {
+    padding: 30%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.contacts-mobile {
+  margin: 1.8vh 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  p {
+    margin: 0 0 0 40px;
+    font-size: 1.1em;
+    color: #b3b2b2;
+    // @media (max-width: 1270px) {
+    //     font-size: 0.8em;
+    // }
+  }
+}
 
 
 .side-menu {
